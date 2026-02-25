@@ -31,7 +31,7 @@ Targeting network and infrastructure engineering roles at international companie
 
 ## 📫 Get in Touch
 
-- https://www.linkedin.com/in/raufbabajanov/
+- [LinkedIN](https://www.linkedin.com/in/raufbabajanov/)
 
 ---
 
