@@ -1,8 +1,18 @@
 # Hey, I'm Rauf 👋
 
-After years working in international operations, I decided to rebuild my career around infrastructure and endpoint engineering — moving from simply using business systems to understanding how they are designed, administered, secured, and repaired.
+I've been pulling hardware apart and poking at software since I was a kid, and that never really wore off.
 
-I’m currently building a Windows Server and Active Directory lab from scratch on my own hardware, with Microsoft Entra ID and Intune planned as the next stage. I deliberately break parts of the environment, troubleshoot them from the underlying dependencies upward, and document the evidence instead of relying on memory.
+Over time, it turned into real IT support work for a small business in Germany, mostly on-site with some remote support. I prepared and imaged machines, set up the local network, configured routers and printers, managed Microsoft Office, YubiKeys, and other security tools, and built the remote-access setup I used when an issue didn't require me to be there physically.
+
+For a good stretch, I also worked inside a large multinational as a subject-matter expert and content moderator. It was multilingual, high-volume, and strict about data security and compliance—the kind of environment where structure and process aren't decoration; they're the whole point.
+
+Working across departments taught me the organizational side of IT: why documentation and ownership matter, what compliance requires in daily work, and how much reliable operations depend on trust and clear records.
+
+Now I'm bringing all of that into one focused track:
+
+> **Windows infrastructure and endpoint engineering**
+
+Right now, that means building a Windows Server and Active Directory lab from scratch on my own hardware, with Microsoft Entra ID and Intune next.
 
 My current certification goal is **MD-102: Endpoint Administrator Associate**.
 
@@ -10,75 +20,78 @@ My current certification goal is **MD-102: Endpoint Administrator Associate**.
 
 ---
 
-### 🔧 What I'm building
+## 🔧 What I'm building
 
-**`admin-lab`** — a practical Windows endpoint and identity lab built to develop real administration and troubleshooting skills, not simply reproduce a tutorial.
+### `admin-lab`
 
-The project is being developed in stages:
+A hands-on Windows endpoint and identity lab, built from scratch rather than copied from a tutorial.
 
-* Hyper-V host preparation and validation
-* Windows Server deployment
-* Active Directory Domain Services and DNS
-* Windows endpoint provisioning and domain integration
-* Group Policy design, testing, and rollback
-* PowerShell-based inspection and administration
-* Microsoft Entra ID and Intune integration
-* Controlled failure and recovery exercises
+The project moves through a deliberate sequence:
 
-The most important part is not completing the lab quickly. Every meaningful change should leave a trail:
+1. Hyper-V host setup and validation
+2. Windows Server deployment
+3. Active Directory and DNS
+4. Windows client deployment and domain join
+5. Group Policy design and testing
+6. PowerShell administration and inspection
+7. Microsoft Entra ID and Intune integration
+8. Controlled break-and-fix drills
 
-* **why** I made the decision
-* **what** I changed
-* **how** I verified that it worked
-* **how** the change can be reversed
-* **what happened** when a controlled failure was introduced
-* **what the evidence showed**, including when my original assumption was wrong
+I care less about finishing quickly than about leaving a real trail behind every step:
 
-The repository will become public after the foundation milestone, with architecture notes, validated build evidence, technical decisions, and troubleshooting records.
+* what I decided and why
+* how I proved it worked
+* how to undo it
+* what I learned when I broke something on purpose
 
----
-
-### 🧠 How I work
-
-* If I cannot show output proving that something works, I do not consider it verified.
-* I make one controlled change at a time and understand how to reverse it.
-* I troubleshoot from dependencies upward — typically connectivity, DNS, authentication, and policy — instead of changing settings at random.
-* I use PowerShell and system output to inspect the actual state before attempting repairs.
-* If I cannot explain and document what happened, I do not consider the lesson complete.
-* I prefer repeatable procedures, automation, and evidence over manual guesswork.
+The repository will go public once the foundation is solid enough to be worth reading, with architecture notes and evidence included.
 
 ---
 
-### 📚 Current technical focus
+## 🧠 How I work
 
-**Hands-on now**
+These are habits from being the person who had to make something work and then explain it afterward:
 
-Windows Server · Active Directory · DNS · Group Policy · PowerShell · Hyper-V · Git · GitHub CLI
-
-**Existing foundation**
-
-Microsoft 365 · Microsoft Entra ID fundamentals · endpoint security principles · core networking · Windows administration
-
-**Next stage**
-
-Microsoft Intune · Conditional Access · identity lifecycle management · endpoint compliance · configuration and application deployment
-
-**Later**
-
-Linux administration · deeper networking · infrastructure automation
-
-I am deliberately building one strong foundation at a time rather than collecting technologies without practical depth.
+* I don't call something done until I can show that it works.
+* I make one change at a time, and I always know how to roll it back.
+* I look at the actual state of a system before I start changing things.
+* When something breaks, I work through the dependencies instead of guessing.
+* If I can't explain what happened, I don't really understand it yet.
 
 ---
 
-### 🎓 Certifications and education
+## 📚 What I'm working with
 
-| Certification                              | Status                                           |
-| ------------------------------------------ | ------------------------------------------------ |
-| Microsoft 365 Certified: Fundamentals      | Active                                           |
-| Google IT Support Professional Certificate | Completed                                        |
-| MD-102: Endpoint Administrator Associate   | In progress — 2026 target                        |
-| SC-300: Identity and Access Administrator  | Potential next step, depending on role direction |
+### Hands-on now
+
+`Windows Server` · `Active Directory` · `DNS` · `Group Policy` · `PowerShell` · `Hyper-V` · `Git` · `GitHub CLI`
+
+### Already in the toolkit
+
+`Windows administration` · `Microsoft 365` · `Entra ID basics` · `LAN and router setup` · `Imaging and deployment` · `YubiKey and MFA` · `Remote-support tools` · `Core networking`
+
+### Next
+
+`Microsoft Intune` · `Conditional Access` · `Endpoint compliance` · `Application deployment` · `Identity lifecycle management`
+
+### Later
+
+`Linux administration` · `Deeper networking` · `Infrastructure automation`
+
+> One foundation built properly before piling more on top.
+
+---
+
+## 🎓 Certifications and education
+
+| Certification                              | Status                                        |
+| ------------------------------------------ | --------------------------------------------- |
+| Microsoft 365 Certified: Fundamentals      | Active                                        |
+| Google IT Support Professional Certificate | Completed                                     |
+| MD-102: Endpoint Administrator Associate   | In progress — 2026 target                     |
+| SC-300: Identity and Access Administrator  | Possible next step, depending on where I land |
+
+### Education
 
 **B.A. Business Administration with Informatics**
 FH Südwestfalen, 2022
@@ -86,16 +99,49 @@ FH Südwestfalen, 2022
 **B.A. Journalism**
 Baku State University
 
-The journalism background is more relevant to engineering than it may initially appear. Writing an incident report, documenting a technical decision, or explaining a system to someone unfamiliar with it all require the same discipline: understand the facts, separate evidence from assumptions, and communicate clearly.
+The journalism background pulls its weight more than I expected.
+
+An incident note, a decision record, or an explanation of a problem to someone who wasn't there—it's all the same job: get the facts straight, keep them separate from assumptions, and say it without noise.
 
 ---
 
-### 🎯 Direction
+## 🌍 Languages
 
-I am working toward a role in Windows infrastructure, endpoint administration, or identity management, ideally in an international environment where technical documentation, structured troubleshooting, and continuous learning are valued.
+| Language | Level            |
+| -------- | ---------------- |
+| Russian  | Native           |
+| English  | Fluent           |
+| German   | B1 and improving |
+| Turkish  | Conversational   |
+
+Most of my work has been across languages and borders, so switching between them is simply how I operate.
 
 ---
 
-### 📫 Find me
+## 🖥️ Off the clock
 
-[LinkedIn](https://www.linkedin.com/in/raufbabajanov/) — happy to discuss endpoint management, Windows infrastructure, lab design, troubleshooting, or lessons learned while building.
+I've got a soft spot for old business hardware—ThinkPads, OptiPlexes, and ThinkCentre micros—and I like bringing them back instead of letting them turn into e-waste.
+
+Partly stubbornness, partly the belief that a well-built machine shouldn't become landfill just because it's a few years old.
+
+Fittingly, this entire lab runs on a refurbished Dell OptiPlex that still has plenty left in it.
+
+---
+
+## 🎯 Where I'm heading
+
+A role in:
+
+* Windows infrastructure
+* endpoint administration
+* identity management
+
+Ideally somewhere international, where structured troubleshooting, real documentation, and people who keep learning are the norm rather than the exception.
+
+---
+
+## 📫 Find me
+
+[LinkedIn](https://www.linkedin.com/in/raufbabajanov/)
+
+Happy to talk about Windows infrastructure, endpoint management, lab design, or whatever I've most recently broken and fixed.
