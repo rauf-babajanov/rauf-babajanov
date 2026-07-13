@@ -1,18 +1,18 @@
 # Hey, I'm Rauf 👋
 
-I've been pulling hardware apart and poking at software since I was a kid, and that never really wore off.
+I've been pulling hardware apart and experimenting with software since I was a kid, and that curiosity never really went away.
 
-Over time, it turned into real IT support work for a small business in Germany, mostly on-site with some remote support. I prepared and imaged machines, set up the local network, configured routers and printers, managed Microsoft Office, YubiKeys, and other security tools, and built the remote-access setup I used when an issue didn't require me to be there physically.
+Over time, it turned into hands-on IT support work for a small business in Germany, primarily on-site with remote support when appropriate. I prepared and imaged computers, set up the local network, configured routers and printers, managed Microsoft Office, YubiKeys, and other security tools, and built the remote-access setup that allowed me to resolve issues without always being physically present.
 
-For a good stretch, I also worked inside a large multinational as a subject-matter expert and content moderator. It was multilingual, high-volume, and strict about data security and compliance—the kind of environment where structure and process aren't decoration; they're the whole point.
+I also spent several years working inside a large multinational as a subject-matter expert and content moderator. It was a multilingual, high-volume environment with strict requirements around data security and compliance—the kind of workplace where structure and process aren't decoration; they're how the work gets done.
 
-Working across departments taught me the organizational side of IT: why documentation and ownership matter, what compliance requires in daily work, and how much reliable operations depend on trust and clear records.
+Working across different teams taught me the organizational side of technology: why clear ownership and documentation matter, what compliance requires in daily operations, and how much reliable work depends on trust, consistency, and accurate records.
 
-Now I'm bringing all of that into one focused track:
+Now I'm bringing those experiences together into one focused direction:
 
 > **Windows infrastructure and endpoint engineering**
 
-Right now, that means building a Windows Server and Active Directory lab from scratch on my own hardware, with Microsoft Entra ID and Intune next.
+Right now, that means building a Windows Server and Active Directory lab from scratch on my own hardware, with Microsoft Entra ID and Intune planned as the next stage.
 
 My current certification goal is **MD-102: Endpoint Administrator Associate**.
 
@@ -26,7 +26,7 @@ My current certification goal is **MD-102: Endpoint Administrator Associate**.
 
 A hands-on Windows endpoint and identity lab, built from scratch rather than copied from a tutorial.
 
-The project moves through a deliberate sequence:
+The project follows a deliberate sequence:
 
 1. Hyper-V host setup and validation
 2. Windows Server deployment
@@ -37,26 +37,26 @@ The project moves through a deliberate sequence:
 7. Microsoft Entra ID and Intune integration
 8. Controlled break-and-fix drills
 
-I care less about finishing quickly than about leaving a real trail behind every step:
+I care less about finishing quickly than about leaving a useful trail behind every step:
 
 * what I decided and why
 * how I proved it worked
-* how to undo it
+* how to reverse the change
 * what I learned when I broke something on purpose
 
-The repository will go public once the foundation is solid enough to be worth reading, with architecture notes and evidence included.
+The repository will go public once the foundation is solid enough to be useful, with architecture notes, technical decisions, build evidence, and troubleshooting records included.
 
 ---
 
 ## 🧠 How I work
 
-These are habits from being the person who had to make something work and then explain it afterward:
+These are habits developed from being the person who had to make something work and then explain it afterward:
 
 * I don't call something done until I can show that it works.
-* I make one change at a time, and I always know how to roll it back.
-* I look at the actual state of a system before I start changing things.
+* I make one change at a time and know how to roll it back.
+* I inspect the actual state of a system before changing it.
 * When something breaks, I work through the dependencies instead of guessing.
-* If I can't explain what happened, I don't really understand it yet.
+* If I can't explain what happened clearly, I probably don't understand it well enough yet.
 
 ---
 
@@ -78,18 +78,18 @@ These are habits from being the person who had to make something work and then e
 
 `Linux administration` · `Deeper networking` · `Infrastructure automation`
 
-> One foundation built properly before piling more on top.
+> One foundation built properly before adding more on top.
 
 ---
 
 ## 🎓 Certifications and education
 
-| Certification                              | Status                                        |
-| ------------------------------------------ | --------------------------------------------- |
-| Microsoft 365 Certified: Fundamentals      | Active                                        |
-| Google IT Support Professional Certificate | Completed                                     |
-| MD-102: Endpoint Administrator Associate   | In progress — 2026 target                     |
-| SC-300: Identity and Access Administrator  | Possible next step, depending on where I land |
+| Certification                              | Status                                          |
+| ------------------------------------------ | ----------------------------------------------- |
+| Microsoft 365 Certified: Fundamentals      | Active                                          |
+| Google IT Support Professional Certificate | Completed                                       |
+| MD-102: Endpoint Administrator Associate   | In progress — 2026 target                       |
+| SC-300: Identity and Access Administrator  | Possible next step, depending on role direction |
 
 ### Education
 
@@ -99,9 +99,9 @@ FH Südwestfalen, 2022
 **B.A. Journalism**
 Baku State University
 
-The journalism background pulls its weight more than I expected.
+The journalism background has proven more useful in IT than I expected.
 
-An incident note, a decision record, or an explanation of a problem to someone who wasn't there—it's all the same job: get the facts straight, keep them separate from assumptions, and say it without noise.
+Writing an incident note, documenting a decision, or explaining a problem to someone who wasn't there all require the same discipline: get the facts straight, separate them from assumptions, and communicate them without unnecessary noise.
 
 ---
 
@@ -114,15 +114,15 @@ An incident note, a decision record, or an explanation of a problem to someone w
 | German   | B1 and improving |
 | Turkish  | Conversational   |
 
-Most of my work has been across languages and borders, so switching between them is simply how I operate.
+Most of my work has involved different languages and international teams, so switching between them is a normal part of how I operate.
 
 ---
 
 ## 🖥️ Off the clock
 
-I've got a soft spot for old business hardware—ThinkPads, OptiPlexes, and ThinkCentre micros—and I like bringing them back instead of letting them turn into e-waste.
+I have a soft spot for older business hardware—ThinkPads, OptiPlexes, and ThinkCentre micros—and enjoy restoring and repurposing machines that still have useful life left in them.
 
-Partly stubbornness, partly the belief that a well-built machine shouldn't become landfill just because it's a few years old.
+I appreciate well-built hardware, practical upgrades, and getting more value from equipment instead of replacing it unnecessarily.
 
 Fittingly, this entire lab runs on a refurbished Dell OptiPlex that still has plenty left in it.
 
@@ -130,13 +130,13 @@ Fittingly, this entire lab runs on a refurbished Dell OptiPlex that still has pl
 
 ## 🎯 Where I'm heading
 
-A role in:
+I'm working toward a role in:
 
 * Windows infrastructure
 * endpoint administration
 * identity management
 
-Ideally somewhere international, where structured troubleshooting, real documentation, and people who keep learning are the norm rather than the exception.
+Ideally, that means joining an international environment where structured troubleshooting, clear documentation, and continuous learning are part of the culture.
 
 ---
 
