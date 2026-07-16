@@ -12,9 +12,9 @@ Now I'm bringing those experiences together into one focused direction:
 
 > **Windows infrastructure and endpoint engineering**
 
-Right now, that means building a Windows Server and Active Directory lab from scratch on my own hardware, with Microsoft Entra ID and Intune planned as the next stage.
+Right now, that means building a Windows Server and Active Directory environment from scratch on my own hardware — on-premises first, deliberately, because that's the layer everything else depends on.
 
-My current certification goal is **MD-102: Endpoint Administrator Associate**.
+My current certification goal is **MD-102: Endpoint Administrator Associate**, with Microsoft Entra ID and Intune as the stage after that.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-raufbabajanov-0A66C2?style=flat\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/raufbabajanov/)
 
@@ -24,18 +24,22 @@ My current certification goal is **MD-102: Endpoint Administrator Associate**.
 
 ### `admin-lab`
 
-A hands-on Windows endpoint and identity lab, built from scratch rather than copied from a tutorial.
+A hands-on Windows infrastructure lab, built from scratch rather than copied from a tutorial.
 
 The project follows a deliberate sequence:
 
-1. Hyper-V host setup and validation
-2. Windows Server deployment
-3. Active Directory and DNS
-4. Windows client deployment and domain join
-5. Group Policy design and testing
-6. PowerShell administration and inspection
-7. Microsoft Entra ID and Intune integration
-8. Controlled break-and-fix drills
+1. Hyper-V host and isolated lab network
+2. Windows Server 2025 deployment and rollback drill
+3. Active Directory and AD-integrated DNS
+4. OU design, security groups, and identity structure
+5. Scripted user provisioning from CSV
+6. Windows 11 client deployment and domain join
+7. Group Policy design, testing, and failure diagnosis
+8. Group-based file permissions
+9. Controlled break-and-fix drills
+10. PowerShell inspection tooling
+
+On-premises first, on purpose. Cloud management sits on top of AD, DNS, and identity — learning the top without the bottom means clicking through a portal and troubleshooting nothing. Entra ID and Intune come after this foundation is solid, in their own build.
 
 I care less about finishing quickly than about leaving a useful trail behind every step:
 
@@ -88,7 +92,7 @@ These are habits developed from being the person who had to make something work 
 | ------------------------------------------ | ----------------------------------------------- |
 | Microsoft 365 Certified: Fundamentals      | Active                                          |
 | Google IT Support Professional Certificate | Completed                                       |
-| MD-102: Endpoint Administrator Associate   | In progress — 2026 target                       |
+| MD-102: Endpoint Administrator Associate   | Planned — 2026 target                           |
 | SC-300: Identity and Access Administrator  | Possible next step, depending on role direction |
 
 ### Education
@@ -124,7 +128,7 @@ I have a soft spot for older business hardware—ThinkPads, OptiPlexes, and Thin
 
 I appreciate well-built hardware, practical upgrades, and getting more value from equipment instead of replacing it unnecessarily.
 
-Fittingly, this entire lab runs on a refurbished Dell OptiPlex that still has plenty left in it.
+Fittingly, the entire lab runs on a single refurbished ThinkPad — daily driver, admin workstation, and hypervisor host at once, with the separation between roles handled through account tiering rather than extra machines.
 
 ---
 
