@@ -22,7 +22,7 @@ My current certification goal is **MD-102: Endpoint Administrator Associate**, w
 
 ## 🔧 What I'm building
 
-### `admin-lab`
+### Now — [`admin-lab`](https://github.com/rauf-babajanov/admin-lab)
 
 A hands-on Windows infrastructure lab, built from scratch rather than copied from a tutorial.
 
@@ -39,7 +39,7 @@ The project follows a deliberate sequence:
 9. Controlled break-and-fix drills
 10. PowerShell inspection tooling
 
-On-premises first, on purpose. Cloud management sits on top of AD, DNS, and identity — learning the top without the bottom means clicking through a portal and troubleshooting nothing. Entra ID and Intune come after this foundation is solid, in their own build.
+On-premises first, on purpose. Cloud management sits on top of AD, DNS, and identity — learning the top without the bottom means clicking through a portal and troubleshooting nothing.
 
 I care less about finishing quickly than about leaving a useful trail behind every step:
 
@@ -48,7 +48,15 @@ I care less about finishing quickly than about leaving a useful trail behind eve
 * how to reverse the change
 * what I learned when I broke something on purpose
 
-The repository will go public once the foundation is solid enough to be useful, with architecture notes, technical decisions, build evidence, and troubleshooting records included.
+The repository is public — architecture notes, technical decisions, build evidence, and troubleshooting records included.
+
+### Next — MD-102
+
+**Endpoint Administrator Associate** — a dedicated build and exam preparation, in its own project.
+
+### After that — hybrid identity
+
+**Entra ID and Intune**, layered on top of the same lab: hybrid join, cloud identity, and endpoint management. On-premises stays underneath it, which is the whole reason it comes first.
 
 ---
 
@@ -60,7 +68,18 @@ These are habits developed from being the person who had to make something work 
 * I make one change at a time and know how to roll it back.
 * I inspect the actual state of a system before changing it.
 * When something breaks, I work through the dependencies instead of guessing.
+* I write down what I *thought* was wrong, not only what turned out to be wrong. The rejected guess is where the learning is.
 * If I can't explain what happened clearly, I probably don't understand it well enough yet.
+
+---
+
+## ✍️ Writing
+
+**[45 Engineering Principles — How to Learn, How to Build](engineering-principles.md)**
+The standard I hold myself to. It names no tool, no vendor and no date, so nothing in it can go out of date.
+
+**[When the Model Argues With the Technician](ai-failure-postmortem.md)**
+An AI assistant got a routine Windows problem wrong four times in a row, argued with me after I corrected it, and nearly talked me into an hour of unnecessary work. I asked it to write its own post-mortem, and it did.
 
 ---
 
@@ -124,7 +143,7 @@ Most of my work has involved different languages and international teams, so swi
 
 ## 🖥️ Off the clock
 
-I have a soft spot for older business hardware—ThinkPads, OptiPlexes, and ThinkCentre micros—and enjoy restoring and repurposing machines that still have useful life left in them.
+I have a soft spot for older business hardware and enjoy restoring and repurposing machines that still have useful life left in them.
 
 I appreciate well-built hardware, practical upgrades, and getting more value from equipment instead of replacing it unnecessarily.
 
